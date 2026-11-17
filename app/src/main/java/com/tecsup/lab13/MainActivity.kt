@@ -37,6 +37,7 @@ fun AppLab13(modifier: Modifier = Modifier) {
         when (pantalla) {
             "menu" -> MenuPrincipal(onElegir = { pantalla = it })
             // Aqui vas agregando una linea por cada ejercicio
+            "ej1" -> Ejercicio1Visibilidad()
             else -> Text("Proximamente", modifier = Modifier.padding(24.dp))
         }
     }
