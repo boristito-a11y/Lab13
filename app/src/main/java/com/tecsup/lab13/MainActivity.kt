@@ -40,6 +40,7 @@ fun AppLab13(modifier: Modifier = Modifier) {
             "ej1" -> Ejercicio1Visibilidad()
             "ej2" -> Ejercicio2Color()
             "ej3" -> Ejercicio3TamanoPosicion()
+            "ej4" -> Ejercicio4Contenido()
             else -> Text("Proximamente", modifier = Modifier.padding(24.dp))
         }
     }
