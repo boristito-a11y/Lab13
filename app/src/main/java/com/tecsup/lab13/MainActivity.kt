@@ -53,7 +53,6 @@ fun MenuPrincipal(onElegir: (String) -> Unit) {
         "ej2" to "Ejercicio 2: animateColorAsState",
         "ej3" to "Ejercicio 3: Tamaño y posición",
         "ej4" to "Ejercicio 4: AnimatedContent",
-        "juego" to "Ejercicio final: Atrapa la Estrella"
     )
 
     Column(
