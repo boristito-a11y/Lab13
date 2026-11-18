@@ -41,6 +41,7 @@ fun AppLab13(modifier: Modifier = Modifier) {
             "ej2" -> Ejercicio2Color()
             "ej3" -> Ejercicio3TamanoPosicion()
             "ej4" -> Ejercicio4Contenido()
+            "juego" -> EjercicioFinalJuego()
             else -> Text("Proximamente", modifier = Modifier.padding(24.dp))
         }
     }
@@ -53,6 +54,7 @@ fun MenuPrincipal(onElegir: (String) -> Unit) {
         "ej2" to "Ejercicio 2: animateColorAsState",
         "ej3" to "Ejercicio 3: Tamaño y posición",
         "ej4" to "Ejercicio 4: AnimatedContent",
+        "juego" to "Ejercicio final: Cazaestrellas"
     )
 
     Column(
